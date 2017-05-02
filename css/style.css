@@ -37,22 +37,21 @@ body {
     margin-right: auto;
 }
 
-.header .nav {
-	text-transform: uppercase;
-}
 
-.header .nav a {
+
+.header .nav .nav-link {
+	text-transform: uppercase;
 	margin-right: 18px;
 	color: #6D6E71;
-	padding-bottom: 5px;
+	padding: 0px 5px;
 }
 
-.header .nav a:hover {
+.header .nav .nav-link:hover {
 	border-bottom: 1px solid currentColor;
     text-decoration: none;
 }
 
-.header .nav a.active {
+.header .nav .nav-link.active {
 	color: #838BC4;
 	border-bottom: 1px solid currentColor;
     text-decoration: none;
