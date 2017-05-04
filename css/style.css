@@ -37,26 +37,67 @@ body {
     margin-right: auto;
 }
 
-.header .nav {
-	text-transform: uppercase;
+.header .main-nav {
+	margin-top: -20px;
 }
 
-.header .nav a {
+.header .main-nav .nav-link {
+	text-transform: uppercase;
+	margin: 6px 9px;
+	color: #6D6E71;
+	padding: 0px 5px;
+}
+
+.header .main-nav .nav-item:hover {
+	background: #E2F0FB;
+}
+
+.header .main-nav .nav-item:hover .nav-link {
+    text-decoration: none;
+}
+
+.header .main-nav .nav-item .sub-nav {
+	display: none;
+	position: absolute;
+	left: 0px;
+	background: #E2F0FB;
+	width: 100%;
+	padding: 5px;
+	margin: 0px 15px;
+	z-index: 1;
+}
+
+.header .main-nav .nav-item:hover .sub-nav {
+	display: flex;
+}
+
+.header .main-nav .nav-item .sub-nav .nav-link {
+	text-transform: lowercase;
+	font-size: 0.85rem;
 	margin-right: 18px;
 	color: #6D6E71;
-	padding-bottom: 5px;
+	padding: 0px 2px;
 }
 
-.header .nav a:hover {
-	border-bottom: 1px solid currentColor;
-    text-decoration: none;
+.header .main-nav .nav-item .sub-nav .nav-link:hover {
+	text-decoration: underline;
 }
 
-.header .nav a.active {
-	color: #838BC4;
-	border-bottom: 1px solid currentColor;
-    text-decoration: none;
+.header .main-nav .nav-item.active {
+	background: #E6E7E8;
 }
+
+.header .main-nav .nav-item.active .sub-nav {
+	display: flex;
+	background: #E6E7E8;
+	z-index: 0;
+}
+
+.header .main-nav .nav-item.active .sub-nav .nav-item {
+	background: #E6E7E8;
+}
+
+
 
 .circle {
     width: 500px;
