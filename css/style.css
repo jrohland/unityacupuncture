@@ -36,7 +36,7 @@ body {
 }
 
 .header .main-nav {
-	margin-top: -44px;
+	margin-top: 0px;
 }
 
 .header .main-nav .nav-link {
@@ -75,6 +75,10 @@ body {
 	margin-right: 18px;
 	color: #6D6E71;
 	padding: 0px 2px;
+}
+
+.header .main-nav .nav-item .sub-nav .nav-item:hover {
+	background: #FFF;
 }
 
 .header .main-nav .nav-item .sub-nav .nav-link:hover {
