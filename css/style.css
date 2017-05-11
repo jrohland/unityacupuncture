@@ -48,7 +48,7 @@ body {
 }
 
 .header .main-nav .nav-item:hover {
-	background: #E2F0FB;
+	background: #F5F5F5;
 }
 
 .header .main-nav .nav-item:hover .nav-link {
@@ -87,7 +87,7 @@ body {
 }
 
 .header .main-nav .nav-item.active {
-	background: #E6E7E8;
+	background: #F5F5F5;
 }
 
 .header .main-nav .nav-item.active .sub-nav {
