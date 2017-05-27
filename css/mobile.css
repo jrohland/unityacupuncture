@@ -27,3 +27,11 @@
 .navbar .navbar-nav .nav-item:hover .sub-nav {
 	display: inline;
 }
+
+.navbar .navbar-nav .nav-item.active .sub-nav {
+	display: inline;
+}
+
+.navbar .navbar-nav .nav-item.active .sub-nav .nav-item {
+	background: #F5F5F5;
+}
