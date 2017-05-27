@@ -1,0 +1,52 @@
+.navbar {
+	padding: 10px;
+	width: 100%;
+}
+
+.navbar .navbar-toggler {
+	margin-top: 15px;
+}
+
+.navbar .navbar-nav .nav-link {
+	padding: 0px;
+}
+
+.navbar .navbar-nav .nav-item .sub-nav {
+	display: block;
+	position: relative;
+	background: #FFF;
+	width: 100%;
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+.navbar .navbar-nav .nav-item .sub-nav .nav-item {
+	margin-left: 20px;
+}
+
+.navbar .navbar-nav .nav-item:hover .sub-nav {
+	display: inline;
+}
+
+.navbar .navbar-nav .nav-item.active .sub-nav {
+	display: inline;
+}
+
+.navbar .navbar-nav .nav-item.active .sub-nav .nav-item {
+	background: #F5F5F5;
+}
+
+.content {
+	padding-left: 15px;
+}
+
+.circle {
+    width: auto;
+    height: auto;
+    border-radius: 100px;    
+}
+
+.circle-content {
+	padding: 50px;
+}
+

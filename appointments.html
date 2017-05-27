@@ -10,58 +10,70 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="(max-width: 992px)" href="css/mobile.css" />
   </head>
   <body>
 
     <div class="container">
-      <div class="row header">
-        <div class="col-4 header-logo">
-          <a href="/"><img src="img/logo-large.png"></a>
-        </div>
-        <div class="col align-self-center">
-          <ul class="nav main-nav">
-            <li class="nav-item rounded">
-              <a class="nav-link" href="/about">About</a>
-              <ul class="nav sub-nav rounded-bottom">
-                <li class="nav-item"><a class="nav-link" href="/about#philosophy">Philosophy</a></li>
-                <li class="nav-item"><a class="nav-link" href="/about#clinicians">Clinicians</a></li>
-              </ul>
-            </li>
-            <li class="nav-item rounded">
-              <a class="nav-link" href="/services">Services</a>
-              <ul class="nav sub-nav rounded-bottom">
-                <li class="nav-item"><a class="nav-link" href="/services#acupuncture">Acupuncture</a></li>
-                <li class="nav-item"><a class="nav-link" href="/services#moxibustion">Moxibustion</a></li>
-                <li class="nav-item"><a class="nav-link" href="/services#cupping">Cupping</a></li>
-                <li class="nav-item"><a class="nav-link" href="/services#guasha">Guasha</a></li>
-                <li class="nav-item"><a class="nav-link" href="/services#nutritional-counseling">Nutritional Counseling</a></li>
-                <li class="nav-item"><a class="nav-link" href="/services#faq">FAQ</a></li>
-                <li class="nav-item"><a class="nav-link" href="/services#pricing">Pricing</a></li>
-              </ul>
-            </li>
-            <li class="nav-item rounded">
-              <a class="nav-link" href="/workshops">Workshops</a>
-            </li>
-            <li class="nav-item rounded">
-              <a class="nav-link" href="/resources">Resources</a>
-              <ul class="nav sub-nav rounded-bottom">
-                <li class="nav-item"><a class="nav-link" href="/resources#research">Research</a></li>
-                <li class="nav-item"><a class="nav-link" href="/resources#partners">Partners</a></li>
-                <li class="nav-item"><a class="nav-link" href="/resources#self-care">Self Care</a></li>
-              </ul>
-            </li>
-            <li class="nav-item rounded active">
-              <a class="nav-link" href="/appointments">Appointments</a>
-              <ul class="nav sub-nav rounded-bottom">
-                <li class="nav-item"><a class="nav-link" href="/appointments#contact">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="/appointments#first-visit">First Visit</a></li>
-              </ul>
-            </li>
-            <li class="nav-item rounded">
-              <a class="nav-link" href="/blog">Blog</a>
-            </li>
-          </ul>
-        </div>
+      <div class="row">
+
+        <nav class="navbar navbar-toggleable-md navbar-light">
+
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <a class="navbar-brand" href="/">
+            <img src="img/logo-large.png" class="hidden-md-down">
+            <img src="img/logo-small.png" class="hidden-lg-up">
+          </a>
+
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item rounded">
+                <a class="nav-link" href="/about">About</a>
+                <ul class="nav sub-nav rounded-bottom">
+                  <li class="nav-item"><a class="nav-link" href="/about#philosophy">Philosophy</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/about#clinicians">Clinicians</a></li>
+                </ul>
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="/services">Services</a>
+                <ul class="nav sub-nav rounded-bottom">
+                  <li class="nav-item"><a class="nav-link" href="/services#acupuncture">Acupuncture</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/services#moxibustion">Moxibustion</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/services#cupping">Cupping</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/services#guasha">Guasha</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/services#nutritional-counseling">Nutritional Counseling</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/services#faq">FAQ</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/services#pricing">Pricing</a></li>
+                </ul>
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="/workshops">Workshops</a>
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="/resources">Resources</a>
+                <ul class="nav sub-nav rounded-bottom">
+                  <li class="nav-item"><a class="nav-link" href="/resources#research">Research</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/resources#partners">Partners</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/resources#self-care">Self Care</a></li>
+                </ul>
+              </li>
+              <li class="nav-item rounded active">
+                <a class="nav-link" href="/appointments">Appointments</a>
+                <ul class="nav sub-nav rounded-bottom">
+                  <li class="nav-item"><a class="nav-link" href="/appointments#contact">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/appointments#first-visit">First Visit</a></li>
+                </ul>
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="/blog">Blog</a>
+              </li>
+            </ul>
+            
+          </div>
+        </nav>
       </div>
     </div>
 
@@ -100,6 +112,10 @@
         </div>
       </div>
     </div>
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
   </body>
 </html>
