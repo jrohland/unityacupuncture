@@ -35,3 +35,7 @@
 .navbar .navbar-nav .nav-item.active .sub-nav .nav-item {
 	background: #F5F5F5;
 }
+
+.content {
+	padding-left: 15px;
+}
