@@ -102,21 +102,24 @@ body {
 }
 
 .circle {
-    width: 500px;
-    height: 500px;
-    border-radius: 250px;
+    width: 450px;
+    height: 450px;
+    border-radius: 225px;
     color: #fff;
-    line-height: 500px;
+    line-height: 450px;
     
 }
 
+.circle-main {
+	float: right !important;
+}
+
 .circle-content {
-	padding: 80px;
-	padding: 80px 100px;
+	padding: 50px 100px;
 }
 
 .circle-content h1 {
-	font-size: 50px;
+	font-size: 40px;
 	padding-bottom: 20px;
 }
 

@@ -39,3 +39,14 @@
 .content {
 	padding-left: 15px;
 }
+
+.circle {
+    width: auto;
+    height: auto;
+    border-radius: 100px;    
+}
+
+.circle-content {
+	padding: 50px;
+}
+
