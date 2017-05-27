@@ -1,0 +1,25 @@
+.navbar {
+	padding: 10px;
+	width: 100%;
+}
+
+.navbar .navbar-toggler {
+	margin-top: 15px;
+}
+
+.navbar .navbar-nav .nav-link {
+	padding: 0px;
+}
+
+.navbar .navbar-nav .nav-item .sub-nav {
+	display: block;
+	position: relative;
+	background: #FFF;
+	width: 100%;
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+.navbar .navbar-nav .nav-item .sub-nav .nav-item {
+	margin-left: 20px;
+}

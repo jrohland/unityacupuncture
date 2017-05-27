@@ -27,6 +27,87 @@ body {
 	background: #E2F0FB;
 }
 
+.navbar {
+	padding: 50px 0px;
+}
+
+.navbar .header-logo {
+	padding: 0px;
+}
+
+.navbar .navbar-nav {
+	margin-top: 0px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	position: relative;
+}
+
+.navbar .navbar-nav .nav-link {
+	text-transform: uppercase;
+	margin: 6px 9px;
+	color: #6D6E71;
+	padding: 0px 5px;
+}
+
+.navbar .navbar-nav .nav-item:hover {
+	background: #F5F5F5;
+}
+
+.navbar .navbar-nav .nav-item:hover .nav-link {
+    text-decoration: none;
+}
+
+.navbar .navbar-nav .nav-item .sub-nav {
+	display: none;
+	position: absolute;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	padding: 5px;
+	margin: 0px 15px;
+	z-index: 1;
+}
+
+.navbar .navbar-nav .nav-item:hover .sub-nav {
+	display: flex;
+}
+
+.navbar .navbar-nav .nav-item .sub-nav .nav-link {
+	text-transform: lowercase;
+	font-size: 0.85rem;
+	margin-right: 18px;
+	color: #6D6E71;
+	padding: 0px 2px;
+}
+
+.navbar .navbar-nav .nav-item .sub-nav .nav-item:hover {
+	background: #FFF;
+}
+
+.navbar .navbar-nav .nav-item .sub-nav .nav-link:hover {
+	text-decoration: underline;
+}
+
+.navbar .navbar-nav .nav-item.active {
+	background: #F5F5F5;
+}
+
+.navbar .navbar-nav .nav-item.active .sub-nav {
+	display: flex;
+	background: #FFF;
+	z-index: 0;
+}
+
+.navbar .navbar-nav .nav-item.active .sub-nav .nav-item {
+	background: #FFF;
+}
+
+
+
+
+
+
+
+
 .header {
 	padding: 50px 0px;
 }
