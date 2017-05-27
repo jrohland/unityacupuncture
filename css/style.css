@@ -181,3 +181,9 @@ body {
 	border: 1px solid #8689C3;
 	background-color: #8689C3;
 }
+
+.clinician-img {
+	float: right;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
